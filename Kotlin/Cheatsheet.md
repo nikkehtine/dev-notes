@@ -21,3 +21,13 @@ val name = "Rover"
 println("Happy birthday, ${name}!")
 // output: Happy Birthday, Rover!
 ```
+
+## Functions
+
+```kotlin
+fun printBorder(border: String, timesToRepeat: Int) {
+	repeat(timesToRepeat) {
+		print(border)
+	}
+}
+```
