@@ -49,6 +49,7 @@ This is a generic structure of a page. It uses *block-level* elements.
 `<section>` is similar to `<article>`, but it is used for grouping together a single part of the page that constitutes one single piece of functionality, such as a map, or a set of headlines. 
 
 > **Note**
+> 
 > An **article** element can have different **sections**, and a **section** can include different **articles**. It all depends on the structure and content of your page.
 
 ### Aside

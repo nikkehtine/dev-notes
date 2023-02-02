@@ -1,6 +1,10 @@
 [Kotlin Documentation](https://kotlinlang.org/docs/home.html)
+
 [Basic syntax | Kotlin Documentation](https://kotlinlang.org/docs/basic-syntax.html)
+
 [Android Developers - Kotlin Basics course](https://developer.android.com/courses/android-basics-kotlin/course)
+
+---
 
 ## Hello World
 
