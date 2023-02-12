@@ -30,4 +30,25 @@ const MY_CONSTANT;
 
 ```js
 console.log("Hello World");
+console.log(myVariable);
+```
+
+## Mathematical operations
+
+```js
+let myVar = 1 + 2; // The value is 3
+
+myVar++; // Increments above variable - same as adding 1
+// The value is 4
+
+myVar *= 3; // The value is 12
+
+// Prefix and postfix
+let a = 1;
+console.log(a++); // 'a' prints to the console, then increments
+// Statement prints 1
+console.log(a); // 'a' was incremented above after being printed
+// Statement prints 2
+console.log(++a); // 'a' increments, then prints to the console
+// Statement prints 3
 ```
