@@ -1,5 +1,4 @@
-[Go basics on Exercism](https://exercism.org/tracks/go/concepts/basics)
-[Effective Go (Go Docs)](https://go.dev/doc/effective_go)
+[Go basics on Exercism](https://exercism.org/tracks/go/concepts/basics) | [Effective Go (Go Docs)](https://go.dev/doc/effective_go)
 
 ## Packages
 

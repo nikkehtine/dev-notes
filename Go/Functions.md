@@ -1,5 +1,7 @@
 ## Variadic Functions
 
+[Variadic functions on Exercism](https://exercism.org/tracks/go/concepts/variadic-functions)
+
 Usually, functions in Go accept only a fixed number of arguments. However, it is also possible to write variadic functions in Go.
 
 A variadic function is a function that accepts a variable number of arguments.
@@ -20,10 +22,10 @@ find(5, 6, 7)
 find(5)
 ```
 
-```
+
 > **Note**
 > The variadic parameter must be the last parameter of the function.
-```
+
 
 The way variadic functions work is by converting the variable number of arguments to a slice of the type of the variadic parameter.
 
