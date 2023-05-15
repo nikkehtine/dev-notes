@@ -1,4 +1,4 @@
-**Length**
+## Length
 
 ```js
 var name = "Lovelace";
@@ -6,7 +6,7 @@ var nameLen = name.length;
 console.log(nameLen); //Output: 8
 ```
 
-**Bracket notation**
+## Bracket notation
 
 ```js
 console.log(name[0]);
@@ -19,7 +19,7 @@ console.log(name[name.length - 1]); // Last letter of 'name'
 // Output: e
 ```
 
-**String immutability**
+## String immutability
 
 ```js
 var myStr = "Jello World";
@@ -28,5 +28,4 @@ var myStr = "Jello World";
 myStr[0] = "H";
 
 myStr = "Hello World";
-
 ```

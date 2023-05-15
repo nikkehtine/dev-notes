@@ -24,5 +24,5 @@ console.log(
 	typeof 0,  // number
 	typeof [], // object
 	typeof {}  // object
-)
+);
 ```

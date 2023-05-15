@@ -99,11 +99,7 @@ let user = {
 	data: {
 		username: "kennethCodesAllDay",
 		joinDate: "March 26, 2016",
-		friends: [
-			"Sam",
-			"Kira",
-			"Tomo"
-		],
+		friends: ["Sam", "Kira", "Tomo"],
 	},
 };
 
