@@ -32,7 +32,7 @@ const MY_CONSTANT;
 let message = "Hello World!";
 ```
 
-## [Console logging](Debugging)
+## [[Debugging#Console logging|Console logging]]
 
 ```js
 console.log("Hello World");

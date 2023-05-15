@@ -39,4 +39,4 @@ let duck = {
 duck.sayName(); // 'The name of this duck is Aflac.'
 ```
 
-[[Constructors]]
+[[Constructors]] | [[JavaScript/Objects/Operations|Operations]]

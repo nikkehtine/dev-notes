@@ -53,8 +53,7 @@ console.log(a);
 **Prefix**
 
 ```js
-console.log(++a); // 'a' increments, then prints to the console
-// Statement prints 3
+console.log(++a);
 ```
 
 - `a` increments, then prints to the console
