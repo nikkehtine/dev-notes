@@ -29,14 +29,7 @@ s := Shape {
 
 However, this syntax is considered *brittle code* since it can break when a field is added, especially when the new field is of a different type.
 
-## Updating structs
-
-```go
-s.name = "Circle"
-s.size = 35
-```
-
-## *New* functions
+### _New_ functions
 
 These functions are usually called `New` or have their names starting with `New`, but since they are just regular functions, you can give them any name you want. They might remind you of constructors in other languages, but in Go they are just regular functions.
 
@@ -49,10 +42,17 @@ func NewShape(name string) Shape {
 }
 ```
 
-## `new` builtin
+### `new` builtin
 
 Another way of creating a new instance of a struct is by using the `new` built-in:
 
 ```go
 s := new(Shape) // s will be of type *Shape (pointer to shape)
+```
+
+## Updating structs
+
+```go
+s.name = "Circle"
+s.size = 35
 ```
