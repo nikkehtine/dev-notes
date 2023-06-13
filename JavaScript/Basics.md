@@ -44,3 +44,9 @@ console.log(myVariable);
 ```js
 let myVar = 1 + 2; // The value is 3
 ```
+
+## Ternary operator
+
+```js
+let isAdult = age < 18 ? "Too young" : "Old enough";
+```
