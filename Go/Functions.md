@@ -1,3 +1,37 @@
+[Functions on Exercism](https://exercism.org/tracks/go/concepts/functions)
+
+```go
+// No parameters
+func PrintHello() {
+    fmt.Println("Hello")
+}
+
+// One parameter
+func PrintHelloName(name string) {
+  fmt.Println("Hello " + name)
+}
+```
+
+Parameters of the same type can be declared together, followed by a single type declaration.
+
+```go
+func PrintGreetingName(greeting, name string) {
+  fmt.Println(greeting + " " + name)
+}
+```
+
+If multiple values are to be returned from a function, they are comma separated.
+
+```go
+func Hello(name string) string {
+  return "Hello " + name
+}
+
+func HelloAndGoodbye(name string) (string, string) {
+  return "Hello " + name, "Goodbye " + name
+}
+```
+
 ## Variadic Functions
 
 [Variadic functions on Exercism](https://exercism.org/tracks/go/concepts/variadic-functions)
@@ -22,10 +56,8 @@ find(5, 6, 7)
 find(5)
 ```
 
-
 > **Note**
 > The variadic parameter must be the last parameter of the function.
-
 
 The way variadic functions work is by converting the variable number of arguments to a slice of the type of the variadic parameter.
 
@@ -68,4 +100,17 @@ Sometimes you already have a slice and want to pass that to a variadic function.
 ```go
 list := []int{1,2,3}
 find(1, list...) // "find" defined as shown above
+```
+
+## Named Return Values and Naked Return
+
+As well as parameters, return values can optionally be named. If named return values are used, a `return` statement without arguments will return those values. This is known as a 'naked' return.
+
+```go
+func SumAndMultiplyThenMinus(a, b, c int) (sum, mult int) {
+    sum, mult = a+b, a*b
+    sum -= c
+    mult -= c
+    return
+}
 ```
