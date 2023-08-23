@@ -1,4 +1,4 @@
-	[Slices on Exercism](https://exercism.org/tracks/go/concepts/slices)
+[Slices on Exercism](https://exercism.org/tracks/go/concepts/slices)
 
 Slices in Go are similar to lists or arrays in other languages. They hold several elements of a specific type (or interface).
 
