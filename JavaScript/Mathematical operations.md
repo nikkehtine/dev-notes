@@ -1,3 +1,5 @@
+# Mathematical operations
+
 ```js
 let myVar = 1 + 2; // The value is 3
 ```

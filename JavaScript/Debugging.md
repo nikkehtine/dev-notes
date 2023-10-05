@@ -1,3 +1,5 @@
+# Debugging
+
 ## Console logging
 
 ```js
@@ -21,8 +23,8 @@ console.clear();
 ```js
 console.log(
 	typeof "", // string
-	typeof 0,  // number
+	typeof 0, // number
 	typeof [], // object
-	typeof {}  // object
+	typeof {} // object
 );
 ```

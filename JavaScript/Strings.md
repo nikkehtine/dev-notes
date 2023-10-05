@@ -1,3 +1,5 @@
+# Strings
+
 ## Length
 
 ```js

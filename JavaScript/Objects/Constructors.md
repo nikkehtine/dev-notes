@@ -1,3 +1,5 @@
+# Objects - Constructors
+
 ## Constructor function
 
 ```js
@@ -148,5 +150,5 @@ Bird.prototype = Object.create(Animal.prototype);
 
 ```js
 Bird.prototype.constructor = Bird;
-duck.constructor // Bird()
+duck.constructor; // Bird()
 ```
