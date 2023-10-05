@@ -49,7 +49,7 @@
 ### General
 
 - <kbd>Esc</kbd> - enter `NORMAL` mode
-- `/` - search for text
+- <kbd>/</kbd> - search for text
 - <kbd>n</kbd>, <kbd>N</kbd> - search for the next or previous occurrence
 - <kbd>.</kbd> - repeat the previous command
 

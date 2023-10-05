@@ -1,3 +1,5 @@
+# Cargo Cheatsheet
+
 ## New project
 
 `cargo new hello_world`

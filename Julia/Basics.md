@@ -1,4 +1,4 @@
-[Julia docs](https://docs.julialang.org/en)
+# Julia Basics [📝](https://docs.julialang.org/en)
 
 ## Variables [📝](https://docs.julialang.org/en/v1/manual/variables/)
 

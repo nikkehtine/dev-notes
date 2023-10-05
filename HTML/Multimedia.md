@@ -1,13 +1,11 @@
+# Multimedia
+
 ```html
-<audio src="audio.mp3" controls>
-	Audio not supported
-</audio>
+<audio src="audio.mp3" controls>Audio not supported</audio>
 ```
 
 ```html
-<video src="video.mp4" controls>
-	Video is not supported by your browser
-</video>
+<video src="video.mp4" controls>Video is not supported by your browser</video>
 ```
 
 ### Options

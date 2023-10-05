@@ -1,8 +1,10 @@
-It is important to create a correct structure for the page, because search engines and screen readers use it to read the content of the page and understand its structure. 
+# Page sections
+
+It is important to create a correct structure for the page, because search engines and screen readers use it to read the content of the page and understand its structure.
 
 ## Generic page structure
 
-This is a generic structure of a page. It uses *block-level* elements.
+This is a generic structure of a page. It uses _block-level_ elements.
 
 <table>
 	<tr><td colspan="2"><code>header</code></td></tr>
@@ -19,7 +21,7 @@ This is a generic structure of a page. It uses *block-level* elements.
 
 ```html
 <header>
-  <h1>this is my header</h1>
+	<h1>this is my header</h1>
 </header>
 ```
 
@@ -27,9 +29,9 @@ This is a generic structure of a page. It uses *block-level* elements.
 
 ```html
 <nav>
-  <a href="#">link 1</a>
-  <a href="#">link 2</a>
-  <a href="#">link 3</a>
+	<a href="#">link 1</a>
+	<a href="#">link 2</a>
+	<a href="#">link 3</a>
 </nav>
 ```
 
@@ -37,16 +39,16 @@ This is a generic structure of a page. It uses *block-level* elements.
 
 ```html
 <main>
-  <article>
-    <h2>some heading</h2>
-    <p>some text</p>
-  </article>
+	<article>
+		<h2>some heading</h2>
+		<p>some text</p>
+	</article>
 </main>
 ```
 
 ### Article and section
 
-`<section>` is similar to `<article>`, but it is used for grouping together a single part of the page that constitutes one single piece of functionality, such as a map, or a set of headlines. 
+`<section>` is similar to `<article>`, but it is used for grouping together a single part of the page that constitutes one single piece of functionality, such as a map, or a set of headlines.
 
 > **Note** -
 > An **article** element can have different **sections**, and a **section** can include different **articles**. It all depends on the structure and content of your page.
@@ -76,8 +78,8 @@ In situations where you simply want to group together elements without any speci
 
 ```html
 <div>
-  <h1>some title</h1>
-  <p>some text</p>
-  <a href="#">some link</a>
+	<h1>some title</h1>
+	<p>some text</p>
+	<a href="#">some link</a>
 </div>
 ```

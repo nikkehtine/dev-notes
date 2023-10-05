@@ -1,3 +1,7 @@
+# Basics
+
+**[Go documentation](https://go.dev/learn/)**
+
 [Go basics on Exercism](https://exercism.org/tracks/go/concepts/basics) | [Effective Go (Go Docs)](https://go.dev/doc/effective_go)
 
 ## Packages

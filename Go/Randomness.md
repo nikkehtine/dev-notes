@@ -1,3 +1,5 @@
+# Randomness [📝](https://pkg.go.dev/math/rand)
+
 [Randomness on Exercism](https://exercism.org/tracks/go/concepts/randomness)
 
 ```go

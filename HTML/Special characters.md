@@ -1,3 +1,5 @@
+# Special characters
+
 | Literal character  | Character reference |
 | ------------------ | ------------------- |
 | `<`                | `&lt;`              |

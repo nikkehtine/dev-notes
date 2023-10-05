@@ -1,3 +1,5 @@
+# Loops [📝](https://gobyexample.com/for)
+
 ## `for` loop
 
 ```go

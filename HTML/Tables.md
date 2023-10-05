@@ -1,19 +1,22 @@
+# Tables
+
 ## Basic structure
 
 ```html
 <table>
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Amy</td>
-    <td>42</td>
-  </tr>
-  <tr>
-    <td>Bob</td>
-    <td>19</td>
-  </tr>
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		 
+	</tr>
+	<tr>
+		<td>Amy</td>
+		<td>42</td>
+	</tr>
+	<tr>
+		<td>Bob</td>
+		<td>19</td>
+	</tr>
 </table>
 ```
 
@@ -26,23 +29,17 @@
 
 ```html
 <table>
-    <thead>
-        <tr>
-            <th colspan="2">
-                The table header
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                The table body
-            </td>
-            <td>
-                with two columns
-            </td>
-        </tr>
-    </tbody>
+	<thead>
+		<tr>
+			<th colspan="2">The table header</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>The table body</td>
+			<td>with two columns</td>
+		</tr>
+	</tbody>
 </table>
 ```
 

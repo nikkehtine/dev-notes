@@ -1,3 +1,5 @@
+# Structs [📝](https://gobyexample.com/structs)
+
 [Structs on Exercism](https://exercism.org/tracks/go/concepts/structs)
 
 Structs can be compared to _classes_ in object-oriented programming.
