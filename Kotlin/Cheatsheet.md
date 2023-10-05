@@ -1,4 +1,4 @@
-[Kotlin Documentation](https://kotlinlang.org/docs/home.html)
+# Kotlin basics [📝](https://kotlinlang.org/docs/home.html)
 
 [Basic syntax | Kotlin Documentation](https://kotlinlang.org/docs/basic-syntax.html)
 

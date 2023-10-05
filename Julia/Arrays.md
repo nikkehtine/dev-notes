@@ -19,3 +19,5 @@ a = Float32[1, 2.3, 4//5]
 - **`eltype(a)`** - `Float32` - the type of elements
 - **`length(a)`** - `3` - the number of elements
 - **`ndim(a)`** - `1` - the number of dimensions
+
+- `a[end]` - `0.8` - the last element of an array
