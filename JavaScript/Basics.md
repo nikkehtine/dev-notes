@@ -28,7 +28,7 @@ myVariable = 42;
 const MY_CONSTANT;
 ```
 
-## [[Strings]]
+## [[JavaScript/Strings]]
 
 ```js
 let message = "Hello World!";
