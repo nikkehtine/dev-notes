@@ -26,12 +26,16 @@ short h = 32767;          // 2 bytes (-32 768 to 32 767) %d
 unsigned short i = 65535; // 2 bytes (0 to 65 535)       %d
 // (short int)
 
-int j = 2147483647;          // 4 bytes (-2 147 483 648 to 2 147 483 647) %d
-unsigned int k = 4294967295; // 4 bytes (0 to 4 294 967 295)              %u
+int j = 2147483647;
+// 4 bytes (-2 147 483 648 to 2 147 483 647) %d
+unsigned int k = 4294967295;
+// 4 bytes (0 to 4 294 967 295)              %u
 // on modern systems this is already a long
 
-long long l = 9223372036854775807; // 8 bytes (-9 quintillion to 9 quintillion) %lld
-unsigned long long m = 18446744073709551615U; // 8 bytes (0 to 18 quintillion) %llu
+long long l = 9223372036854775807;
+// 8 bytes (-9 quintillion to 9 quintillion) %lld
+unsigned long long m = 18446744073709551615U;
+// 8 bytes (0 to 18 quintillion)             %llu
 ```
 
 ## Format specifiers
@@ -68,3 +72,15 @@ printf("I like pizza!\n");
 | `\\`         | backslash                       |
 | `\'` or `\"` | single or double quotation mark |
 | `\b`         | backspace                       |
+## Booleans
+
+```c
+#import <stdbool.h>
+
+// OR
+
+#ifndef BOOL
+#define BOOL char
+#define FALSE 0
+#define TRUE 1
+```
